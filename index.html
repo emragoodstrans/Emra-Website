@@ -1,85 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EMRA GOODS TRANS – Reliable Transport Across Southern Africa</title>
+  <meta name="description" content="EMRA GOODS TRANS provides reliable local and cross-border transport solutions throughout South Africa and SADC. Get a fast quote today."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a href="#home" class="brand">
+        <img src="assets/logo.png" alt="EMRA Goods Trans logo" />
+        <span>EMRA GOODS TRANS</span>
+      </a>
+      <nav>
+        <a href="#services">Services</a>
+        <a href="#coverage">Coverage</a>
+        <a href="#why-us">Why Us</a>
+        <a href="#contact">Contact</a>
+        <a href="#quote" class="btn btn-primary">Get a Quote</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
 
-<!DOCTYPE HTML>
-<html>
-  <head>
-    <title>EMRA GOODS TRANS</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <!-- Header -->
-    <header class="site-header">
-      <div class="container">
-        <div class="brand">
-          <img src="EMRA GOODS TRANS.jpg" alt="EMRA GOODS TRANS Logo">
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="container hero-wrap">
+        <div class="hero-text">
+          <h1>Reliable Transport. No Journey Is Too Far.</h1>
+          <p>Professional road freight for cement, timber and retail goods across South Africa and the SADC region.</p>
+          <div class="cta">
+            <a href="#quote" class="btn btn-primary">Request a Quote</a>
+            <a href="https://wa.me/27799134131?text=Hi%20EMRA%20GOODS%20TRANS%2C%20I%20need%20a%20transport%20quote." target="_blank" class="btn btn-outline">WhatsApp Us</a>
+          </div>
+          <ul class="hero-points">
+            <li>On-time deliveries & live updates</li>
+            <li>34‑ton Superlink capacity</li>
+            <li>Local & Cross‑Border (Zim, Bots, Nam, Zam)</li>
+          </ul>
         </div>
-        <nav class="nav">
-          <a href="#about">About</a>
-          <a href="#services">Services</a>
-          <a href="#coverage">Coverage</a>
-          <a href="#contact">Contact</a>
-        </nav>
-      </div>
-    </header>
-
-    <!-- About -->
-    <section id="about" class="section">
-      <div class="container">
-        <h2>About Us</h2>
-        <p>EMRA GOODS TRANS (Pty) Ltd is a professional transport and logistics company specializing in reliable
-        freight services across South Africa and the SADC region. With a modern fleet and experienced team,
-        we are committed to safe and on-time deliveries.</p>
+        <div class="hero-card">
+          <h3>Fast Quote</h3>
+          <form id="quick-quote" action="mailto:emragoodstrans@gmail.com" method="post" enctype="text/plain">
+            <label>Pickup <input type="text" name="Pickup" placeholder="e.g., Pretoria" required></label>
+            <label>Drop-off <input type="text" name="Dropoff" placeholder="e.g., Gaborone" required></label>
+            <label>Commodity <input type="text" name="Commodity" placeholder="e.g., Bagged cement" required></label>
+            <label>Weight/Volume <input type="text" name="Weight" placeholder="e.g., 30 tons" required></label>
+            <label>Name <input type="text" name="Name" required></label>
+            <label>Email <input type="email" name="Email" required></label>
+            <label>Phone <input type="tel" name="Phone" required></label>
+            <button type="submit" class="btn btn-primary btn-block">Send Request</button>
+          </form>
+          <small>Or email: <a href="mailto:emragoodstrans@gmail.com">emragoodstrans@gmail.com</a></small>
+        </div>
       </div>
     </section>
 
-    <!-- Services -->
-    <section id="services" class="section alt">
+    <!-- SERVICES -->
+    <section id="services" class="section">
       <div class="container">
         <h2>Our Services</h2>
-        <ul>
-          <li>Local & Cross-Border Transport</li>
-          <li>Fleet: Tautliner, Flatdeck, Tri-Axle Trailers</li>
-          <li>Specialized in Cement, Timber, Retail, and Bulk Goods</li>
-        </ul>
+        <div class="grid3">
+          <div class="card">
+            <h3>General Freight (Superlink)</h3>
+            <p>Palletized and bulk freight on tautliner superlinks with secure strapping and fast turnaround.</p>
+          </div>
+          <div class="card">
+            <h3>Cement & Building Materials</h3>
+            <p>High-volume, time-sensitive lanes for bagged cement, clinker, steel, and timber products.</p>
+          </div>
+          <div class="card">
+            <h3>Retail Distribution</h3>
+            <p>Distribution into national DCs and stores with strict OTIF and clear POD processes.</p>
+          </div>
+        </div>
       </div>
     </section>
 
-    <!-- Coverage -->
-    <section id="coverage" class="section">
+    <!-- COVERAGE -->
+    <section id="coverage" class="section alt">
       <div class="container">
         <h2>Coverage</h2>
-        <p>Nationwide in South Africa and cross-border into Zimbabwe, Botswana, Namibia and Zambia.</p>
+        <p>Nationwide in South Africa and cross‑border into Zimbabwe, Botswana, Namibia and Zambia.</p>
         <ul class="tags">
-          <li>Gauteng</li>
-          <li>Limpopo</li>
-          <li>North West</li>
-          <li>Mpumalanga</li>
-          <li>KwaZulu-Natal</li>
-          <li>Western Cape</li>
-          <li>Northern Cape</li>
-          <li>Eastern Cape</li>
-          <li>Free State</li>
+          <li>Gauteng</li><li>Limpopo</li><li>North West</li><li>Mpumalanga</li><li>KwaZulu‑Natal</li><li>Western Cape</li>
         </ul>
       </div>
     </section>
 
-    <!-- Contact -->
-    <section id="contact" class="section alt">
-      <div class="container">
-        <h2>Contact Us</h2>
-        <p><strong>Phone:</strong> 079 913 4131 / 079 374 4719</p>
-        <p><strong>Email:</strong> emragoodstrans@gmail.com</p>
-        <p><strong>Address:</strong> Nzhelele Mamvuka, Stand Mavuka Dam, Makado, Limpopo, 0993</p>
+    <!-- WHY US -->
+    <section id="why-us" class="section">
+      <div class="container grid3">
+        <div class="feature">
+          <h3>On‑Time & Communicative</h3>
+          <p>Live updates, proactive ETA management, and PODs within 24 hours.</p>
+        </div>
+        <div class="feature">
+          <h3>Safety & Compliance</h3>
+          <p>Roadworthy, COF, licensed drivers, and induction-ready where required.</p>
+        </div>
+        <div class="feature">
+          <h3>Flexible Capacity</h3>
+          <p>Own and partner fleets for peak periods—so you’re never left waiting.</p>
+        </div>
       </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
+    <!-- QUOTE -->
+    <section id="quote" class="section alt">
       <div class="container">
-        <p>© 2025 EMRA GOODS TRANS (Pty) Ltd | Reg. No: 2022/745837/07</p>
-        <a href="mailto:emragoodstrans@gmail.com" class="btn-quote">Request a Quote</a>
+        <h2>Request a Detailed Quote</h2>
+        <form class="quote-form" action="mailto:emragoodstrans@gmail.com" method="post" enctype="text/plain">
+          <div class="row">
+            <label>Company <input type="text" name="Company" required></label>
+            <label>Contact Person <input type="text" name="Contact Person" required></label>
+            <label>Email <input type="email" name="Email" required></label>
+            <label>Phone <input type="tel" name="Phone" required></label>
+          </div>
+          <div class="row">
+            <label>Pickup Address <input type="text" name="Pickup Address" required></label>
+            <label>Drop-off Address <input type="text" name="Drop-off Address" required></label>
+            <label>Commodity <input type="text" name="Commodity" required></label>
+            <label>Load Details <input type="text" name="Load Details" placeholder="e.g., 34t palletised, 26 pallets"></label>
+          </div>
+          <div class="row">
+            <label>Date <input type="date" name="Date"></label>
+            <label>Notes <textarea name="Notes" rows="3" placeholder="Special requirements, timing, site rules"></textarea></label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+          <a class="btn btn-outline" target="_blank" href="https://wa.me/27793744719?text=Hi%20EMRA%20GOODS%20TRANS%2C%20I%27d%20like%20a%20quote.">Chat on WhatsApp</a>
+        </form>
+        <p class="form-note">Prefer email? Send details to <a href="mailto:emragoodstrans@gmail.com">emragoodstrans@gmail.com</a></p>
       </div>
-    </footer>
-  </body>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container contact">
+        <div>
+          <h2>Contact Us</h2>
+          <p><strong>EMRA GOODS TRANS (Pty) Ltd</strong></p>
+          <p>Director: Mpho Emmanuel Ramushoana</p>
+          <p><a href="tel:+27799134131">+27 79 913 4131</a> / <a href="tel:+27793744719">+27 79 374 4719</a></p>
+          <p><a href="mailto:emragoodstrans@gmail.com">emragoodstrans@gmail.com</a></p>
+        </div>
+        <div class="contact-cta">
+          <a href="#quote" class="btn btn-primary">Get Started</a>
+          <a target="_blank" class="btn btn-outline" href="https://wa.me/27799134131">WhatsApp Now</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <span>© <span id="year"></span> EMRA GOODS TRANS. All rights reserved.</span>
+      <span>Built for reliability • Local & Cross‑Border</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
